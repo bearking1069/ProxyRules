@@ -1,0 +1,8 @@
+# 小米官方直连规则
+# DOMAIN,account.xiaomi.com：精准匹配 account.xiaomi.com 域名。
+# DOMAIN-SUFFIX,xiaomi.com (推荐加上)：匹配所有 *.xiaomi.com 结尾的域名（包含账号登录时可能调用的 API 或静态资源服务）。
+# DOMAIN-SUFFIX,mi.com 和 xiaomi.net (可选)：防范小米官网及相关网络请求走代理。
+DOMAIN,account.xiaomi.com
+DOMAIN-SUFFIX,*.xiaomi.com
+DOMAIN-SUFFIX,xiaomi.net
+DOMAIN-SUFFIX,mi.com
