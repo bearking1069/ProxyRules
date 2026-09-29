@@ -6,3 +6,6 @@ DOMAIN,account.xiaomi.com
 DOMAIN-SUFFIX,*.xiaomi.com
 DOMAIN-SUFFIX,xiaomi.net
 DOMAIN-SUFFIX,mi.com
+
+# Google 下载服务直连
+DOMAIN,dl.google.com
